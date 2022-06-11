@@ -31,6 +31,7 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196F3;
+    list-style-type: none;
 }
 .pr{
     /* портфолио */
@@ -46,7 +47,7 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-
+    list-style-type: none;
 }
 .kn{
     /* контакти  */
@@ -62,13 +63,14 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    list-style-type: none;
 }
 .mail{
-    /* почта  */
+    /* mail  */
     position: absolute;
-    width: 68px;
+    width: 135px;
     height: 16px;
-    left: 679px;
+    left: 1078px;
     top: 32px;
     font-family: 'Roboto';
     font-style: normal;
@@ -76,5 +78,21 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #2196F3;
+}
+
+.telefono{
+        /* +38 096 111 11 11 */
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
