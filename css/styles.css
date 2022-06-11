@@ -1,6 +1,8 @@
-.head{
+.header{
     background-color: white; 
-    font-size: 14px;
+}
+.lil{
+    /* list-style-type: none; */
 }
 .webstudio{
     /* веб студия лого */
@@ -31,7 +33,6 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196F3;
-    list-style-type: none;
 }
 .pr{
     /* портфолио */
@@ -47,7 +48,6 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    list-style-type: none;
 }
 .kn{
     /* контакти  */
@@ -62,8 +62,7 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
-    list-style-type: none;
+    color: #33c915;
 }
 .mail{
     /* mail  */
