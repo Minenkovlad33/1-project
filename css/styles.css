@@ -1,7 +1,8 @@
-
+/* 
 li{
     list-style-type: none;
-}
+    text-decoration: none;
+} */
 .webstudio{
     /* веб студия лого */
     position: absolute;
@@ -508,9 +509,54 @@ button{
     color: #757575;
 }
 
+.futer-back{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
 
+.footer-web{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
 
+.footer-web-span{
+    color: rgb(68, 33, 33);
+}
 
-
-
+.footer-back{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+.footer-adres{       
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    font-family: 'Roboto';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    color: #FFFFFF;
+}
 
