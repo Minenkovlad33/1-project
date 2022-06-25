@@ -1,8 +1,7 @@
-/* 
+
 li{
     list-style-type: none;
-    text-decoration: none;
-} */
+}
 .webstudio{
     /* веб студия лого */
     position: absolute;
@@ -36,10 +35,17 @@ li{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #212121;
     text-decoration: none;
-    
-  
+}
+.contacts:hover{
+    color: #2196F3;
+}
+.portfolio:hover{
+    color: #2196F3;
+}
+.studio:hover{
+    color: #2196F3;
 }
 .portfolio{
     /* портфолио */
@@ -132,6 +138,7 @@ li{
     text-transform: uppercase;
 }
 button{
+    /* фон кнопки  */
     position: absolute;
     width: 136px;
     height: 30px;
@@ -148,9 +155,12 @@ button{
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-
+}
+:active.btn{
+    background-color: rebeccapurple;
 }
 .btn{
+    /* кнопка текс  */
     position: absolute;
     width: 200px;
     height: 50px;
@@ -159,6 +169,7 @@ button{
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+   
 }
 .text-one{
     /* Внимание к деталям */
@@ -330,28 +341,41 @@ button{
     left: 0px;
     top: 1449px;
     background: #F5F4FA;
+    /* background: red; */
 }
 .team-text{
     position: absolute;
     width: 264px;
     height: 42px;
     left: 668px;
-    top: 1543px;
+    top: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
     color: #212121;
+
+}
+.team-background-one
+{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-img-one{
     position: absolute;
     width: 270px;
     height: 260px;
-    left: 215px;
-    top: 1635px;
+    /* left: 215px; */
+    /* top: 186px; */
     background: url(4853.jpg);
     border-radius: 0px;
 }
@@ -359,41 +383,48 @@ button{
     position: absolute;
     width: 151px;
     height: 19px;
-    left: 275px;
-    top: 1925px;
+    left: 60px;
+    top: 270px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
     color: #212121;
 }
 .team-position-one{
     position: absolute;
     width: 130px;
     height: 19px;
-    left: 285px;
-    top: 1954px;
+    left: 70px;
+    top: 300px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
     color: #757575;
 }
-
-
-
+.team-background-two{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team-img-two{
     position: absolute;
     width: 270px;
     height: 260px;
-    left: 515px;
-    top: 1635px;
+    /* left: 515px; */
+    /* top: 1635px; */
     background: url(5844.jpg);
     border-radius: 0px;
 }
@@ -401,8 +432,8 @@ button{
     position: absolute;
     width: 109px;
     height: 19px;
-    left: 596px;
-    top: 1925px;
+    left: 81px;
+    top: 270px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -416,25 +447,33 @@ button{
     position: absolute;
     width: 147px;
     height: 19px;
-    left: 577px;
-    top: 1954px;
+    left: 62px;
+    top: 300px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
     color: #757575;
 }
-
-
+.team-background-three{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team-img-three{
     position: absolute;
     width: 270px;
     height: 260px;
-    left: 815px;
-    top: 1635px;
+    /* left: 815px; */
+    /* top: 1635px; */
     background: url(16166.jpg);
     border-radius: 0px;
 }
@@ -442,8 +481,8 @@ button{
     position: absolute;
     width: 137px;
     height: 19px;
-    left: 882px;
-    top: 1925px;
+    left: 67px;
+    top: 270px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -457,8 +496,8 @@ button{
     position: absolute;
     width: 76px;
     height: 19px;
-    left: 912px;
-    top: 1954px;
+    left: 97px;
+    top: 300px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -468,13 +507,22 @@ button{
     letter-spacing: 0.03em;
     color: #757575;
 }
-
+.team-background-four{      
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team-img-four{
     position: absolute;
     width: 270px;
     height: 260px;
-    left: 1115px;
-    top: 1635px;
+    /* left: 1115px; */
+    /* top: 1635px; */
     background: url(2968.jpg);
     border-radius: 0px;
 }
@@ -482,8 +530,8 @@ button{
     position: absolute;
     width: 134px;
     height: 19px;
-    left: 1183px;
-    top: 1925px;
+    left: 68px;
+    top: 270px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -497,15 +545,15 @@ button{
     position: absolute;
     width: 87px;
     height: 19px;
-    left: 1207px;
-    top: 1954px;
+    left: 92px;
+    top: 300px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
     color: #757575;
 }
 
@@ -523,7 +571,7 @@ button{
     width: 145px;
     height: 31px;
     left: 215px;
-    top: 2157px;
+    top: 60px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -531,10 +579,12 @@ button{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
+    text-decoration: none;
 }
 
 .footer-web-span{
-    color: rgb(68, 33, 33);
+    color: white;
+    
 }
 
 .footer-back{
@@ -559,4 +609,48 @@ button{
     letter-spacing: 0.03em; 
     color: #FFFFFF;
 }
-
+.footer-adres{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 110px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-mail{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-tel
+{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 190px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
