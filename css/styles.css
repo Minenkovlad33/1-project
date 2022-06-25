@@ -38,15 +38,13 @@ li{
     color: #212121;
     text-decoration: none;
 }
-.contacts:hover{
+.contacts:hover,.portfolio:hover,.studio:hover, 
+.mail:hover, .telefono:hover, .footer-adres:hover, .footer-mail:hover,
+.footer-tel:hover{
     color: #2196F3;
 }
-.portfolio:hover{
-    color: #2196F3;
-}
-.studio:hover{
-    color: #2196F3;
-}
+
+
 .portfolio{
     /* портфолио */
     position: absolute;
@@ -91,7 +89,7 @@ li{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #212121;
     text-decoration: none;
 }
 
@@ -124,7 +122,7 @@ li{
     /* Эффективные решения для вашего бизнеса */
     position: absolute;
     width: 696px;
-    height: 120px;
+    height: 200px;
     left: 452px;
     top: 200px;
     font-family: 'Roboto';
@@ -137,39 +135,28 @@ li{
     color: #FFFFFF;
     text-transform: uppercase;
 }
-button{
-    /* фон кнопки  */
-    position: absolute;
-    width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 410px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
-:active.btn{
+.btn:hover{
     background-color: rebeccapurple;
+    transition-duration: 0.4s;
+}
+.btn:active{
+    background-color: rgb(51, 10, 92);
 }
 .btn{
     /* кнопка текс  */
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 30px;
     position: absolute;
     width: 200px;
     height: 50px;
     left: 700px;
-    top: 400px;
-    background: #2196F3;
+    top: 360px;
+    background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-   
+    color: #FFFFFF; 
+    letter-spacing: 0.06em;
 }
 .text-one{
     /* Внимание к деталям */
@@ -384,7 +371,7 @@ button{
     width: 151px;
     height: 19px;
     left: 60px;
-    top: 270px;
+    top: 290px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -393,13 +380,14 @@ button{
     text-align: center;
     /* letter-spacing: 0.03em; */
     color: #212121;
+    margin: 0%;
 }
 .team-position-one{
     position: absolute;
     width: 130px;
     height: 19px;
     left: 70px;
-    top: 300px;
+    top: 319px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -408,6 +396,7 @@ button{
     text-align: center;
     /* letter-spacing: 0.03em; */
     color: #757575;
+    margin: 0%;
 }
 .team-background-two{
     position: absolute;
@@ -433,7 +422,7 @@ button{
     width: 109px;
     height: 19px;
     left: 81px;
-    top: 270px;
+    top: 290px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -442,13 +431,14 @@ button{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin: 0%;
 }
 .team-position-two{    
     position: absolute;
     width: 147px;
     height: 19px;
     left: 62px;
-    top: 300px;
+    top: 319px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -457,6 +447,7 @@ button{
     text-align: center;
     /* letter-spacing: 0.03em; */
     color: #757575;
+    margin: 0%;
 }
 .team-background-three{
     position: absolute;
@@ -482,7 +473,7 @@ button{
     width: 137px;
     height: 19px;
     left: 67px;
-    top: 270px;
+    top: 290px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -491,13 +482,14 @@ button{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin: 0%;
 }
 .team-position-three{
     position: absolute;
     width: 76px;
     height: 19px;
     left: 97px;
-    top: 300px;
+    top: 319px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -506,6 +498,7 @@ button{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin: 0%;
 }
 .team-background-four{      
     position: absolute;
@@ -531,7 +524,7 @@ button{
     width: 134px;
     height: 19px;
     left: 68px;
-    top: 270px;
+    top: 290px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -540,13 +533,14 @@ button{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin: 0%;
 }
 .team-position-four{
     position: absolute;
     width: 87px;
     height: 19px;
     left: 92px;
-    top: 300px;
+    top: 319px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -555,15 +549,7 @@ button{
     text-align: center;
     /* letter-spacing: 0.03em; */
     color: #757575;
-}
-
-.futer-back{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-    background: #2F303A;
+    margin: 0%;
 }
 
 .footer-web{
@@ -594,20 +580,6 @@ button{
     left: 0px;
     top: 2097px;
     background: #2F303A;
-}
-.footer-adres{       
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2208px;
-    font-family: 'Roboto';
-    font-style: normal; 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em; 
-    color: #FFFFFF;
 }
 .footer-adres{
     position: absolute;
@@ -653,4 +625,56 @@ button{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
+/* dddddddddddddddddddddddd */
+
+.btn-oll{
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-color: #FFFFFF;;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.btn-oll:hover, .btn-web:hover{
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.btn-oll:active, .btn-web:active{
+    background: #177aca; 
+    color: #FFFFFF;
+}
+.btn-web{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border-color: #FFFFFF;
+}
+
+
+
+
+
