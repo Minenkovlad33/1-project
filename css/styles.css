@@ -694,15 +694,112 @@ li{
 }
 
 /* main */
+.main-back-oll{     
+    /* для всех бекграундов общий стиль */
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.main-title-oll
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    position: absolute;
+    left: 24px;
+    top: 294px;
+}
+.mail-text-oll{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    position: absolute;
+    left: 24px;
+    top: 344px;
+}
+/* 1 */
 .main-back-one{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+}
+
+/* 2 */
+.main-back-two{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
 
 }
-.main-img-one{
+/* 3 */
+.main-back-three{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
 
 }
-.main-title-one{
+/* 4 */
+
+.main-back-four{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+}
+/* 5 */
+.main-back-five{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+}
+/* 6 */
+.main-back-six{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
 
 }
-.mail-text-one{
-    
+/* 7 */
+.main-back-seven{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+
+}
+/* 8 */
+.main-back-eight{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+}
+/* 9 */
+.main-back-nine{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
 }
