@@ -635,6 +635,7 @@ li{
     height: 38px;
     left: 495px;
     top: 174px;   
+
 }
 .btn-oll:hover, .btn-web:hover, .btn-app:hover,
 .btn-design:hover, .btn-marketing:hover{
@@ -653,7 +654,6 @@ li{
     height: 38px;
     left: 576px;
     top: 174px;
-
 }
 .btn-app{
     position: absolute;
@@ -669,6 +669,7 @@ li{
     height: 38px;
     left: 865px;
     top: 174px;
+
 }
 .btn-marketing{
     position: absolute;
@@ -676,7 +677,6 @@ li{
     height: 38px;
     left: 976px;
     top: 174px;
-
 }
 .btt{
  /* одинаковые параметры кнопок  */
@@ -691,6 +691,7 @@ li{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    border: 0px;
 }
 
 /* main */
@@ -802,4 +803,12 @@ li{
     height: 404px;
     left: 1015px;
     top: 1130px;
+}
+.footer-back-design{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
 }
